@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<script src="ca.js"></script>
+	<title>SCIENTIFIC CALCULATOR</title>
+</head>
+<body>
+<div>
+	<form name="cal">
+	<input type="text" id="answer" name="display" placeholder="0">
+	<input type="button" value="sqrt" class="button" onclick="sqrt()">
+	<input type="button" value="x^2" class="button" onclick="sqr()">
+	<input type="button" value="log" class="button"onclick="log()">
+	<input type="button" value="Inv" class="button" onclick="inverse()">
+		<input type="button" value="!" class="button" onclick="fact()">
+	<input type="button" value="sin" class="button" onclick="sin()">
+	<input type="button" value="cos" class="button" onclick="cos()">
+	<input type="button" value="tan" class="button" onclick="tan()">
+	<input type="button" value="ceil" class="button" onclick="ceil()">
+	<input type="button" value="floor" class="button" onclick="floor()">
+	<input type="button" value="e" class="button" onclick="f2()">
+	<input type="button" value="(" class="button" onclick="document.cal.display.value+='('">
+	<input type="button" value=")" class="button" onclick="document.cal.display.value+=')'">
+	<input type="button" value="abs" class="button" onclick="abs()">
+	<input type="button" value="(-)" class="button" onclick="change()">
+	
+	<input type="button" value="7" class="button" onclick="document.cal.display.value+='7'">
+	<input type="button" value="8" class="button" onclick="document.cal.display.value+='8'">
+	<input type="button" value="9" class="button"onclick="document.cal.display.value+='9'">
+	<input type="button" value="+" class="button"onclick="add()">
+	<input type="button" value="%" class="button"onclick="mod()">
+	<input type="button" value="4" class="button"onclick="document.cal.display.value+='4'">
+	<input type="button" value="5" class="button"onclick="document.cal.display.value+='5'">
+	<input type="button" value="6" class="button"onclick="document.cal.display.value+='6'">
+	<input type="button" value="-" class="button"onclick="sub()">
+	<input type="button" value="pi" class="button"onclick="f1()">
+	<input type="button" value="1" class="button"onclick="document.cal.display.value+='1'">
+	<input type="button" value="2" class="button"onclick="document.cal.display.value+='2'">
+	<input type="button" value="3" class="button"onclick="document.cal.display.value+='3'">
+	<input type="button" value="*" class="button"onclick="mul()">
+	<input type="button" value="del" class="button"onclick="document.cal.display.value=document.cal.display.value.substr(0,document.cal.display.value.length-1)">
+	<input type="button" value="." class="button"onclick="dec()">
+	<input type="button" value="0" class="button"onclick="document.cal.display.value+='0'">
+	<input type="button" value="=" class="button"onclick="document.cal.display.value=func()">
+	<input type="button" value="/" class="button"onclick="div()">
+	<input type="button" value="C" class="button"onclick="clr()">
+
+	</form>
+</div>
+<div1>
+<a href="rules.html" style="text-decoration:none"><button>Guidelines</button></a>
+</div1>
+	</body>
+</html>

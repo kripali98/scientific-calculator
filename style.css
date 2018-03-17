@@ -1,0 +1,62 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	background:#DCDCDC;
+	margin-top:0px;
+}
+div
+{
+	width:406px;
+	margin:auto;
+}
+#answer
+{
+	width:381px;
+	height:56px;
+	text-align:right;
+	font-size:40px;
+	padding:8px;
+	border:2px solid black;
+}
+div1
+{
+	margin-left:200px;
+}
+button
+{
+	border:solid red;
+	border-radius:20%;
+	color:red;
+	font-size:40px;
+	background-color:white;
+    box-shadow: 0 8px 16px 0 #696969, 0 6px 20px 0 #696969;
+	padding: 20px;
+}
+.button
+{
+	width:80px;
+	height:80px;
+	float:left;
+	background-color:black;
+	text-align:center;
+	color:#D3D3D3;
+	border:1px solid grey;
+	font-size:26px;
+
+}
+
+.button:hover
+{
+	font-size:36px;
+}
+.button:active
+{	
+	font-size:40px;
+	background-color:#2F4F4F;
+}
+
+	
